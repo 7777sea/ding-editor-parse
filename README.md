@@ -6,23 +6,23 @@
 #### 基本使用方法
 （1）复制文件夹：
 
-> 复制文件夹aParse至项目中
+> 复制文件夹dingParse至项目中
 
 (2)引入必要文件:
 
-> 在需要使用的页面中引入aParse组件
+> 在需要使用的页面中引入dingParse组件
 
-    <import src="../../component/aParse/aParse.axml"/>
+    <import src="../../component/dingParse/aParse.axml"/>
 
 > 在使用的acss中引入aParse.acss,也可以在app.acss中全局引入
 
-    @import "../../component/aParse/aParse.acss";
+    @import "../../component/dingParse/aParse.acss";
 
 (3)数据绑定
 
 > index.js
 
-    var AParse = require('../../component/aParse/aParse.js');
+    var AParse = require('../../component/dingParse/aParse.js');
     
     Page({
       onLoad(query) {
@@ -36,7 +36,7 @@
       `
         /**
          * 使用说明：
-        * AParse.AParse(bindName , type, data, target,imagePadding)
+        * dingParse.AParse(bindName , type, data, target,imagePadding)
         * 1.bindName绑定的数据名(必填)
         * 2.type可以为html或者md(必填)
         * 3.data为传入的具体数据(必填)
@@ -45,7 +45,7 @@
         */
     
         let that = this;
-        AParse.aParse('article', 'html', article, that, 5);
+        dingParse.aParse('article', 'html', article, that, 5);
       }
     });
 
@@ -55,7 +55,7 @@
 
 > 在相应的axml中引入模板，这里的article为bindName
 
-    <import src="../../component/aParse/aParse.axml"/>
+    <import src="../../component/dingParse/aParse.axml"/>
     
     <template is="aParse" data="{{aParseData:article.nodes}}"/>
 
