@@ -1,7 +1,7 @@
 # ding-editor-parse
 
 #### 项目介绍
-钉钉小程序富文本解析解决方案，能在应用中解析html，markdown代码。使用方式如下，基本使用样例见aParse/index。
+将富文本字符串转译为ding dom
 
 #### 基本使用方法
 （1）复制文件夹：
