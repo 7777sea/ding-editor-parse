@@ -3,15 +3,6 @@
 #### 项目介绍
 钉钉小程序富文本解析解决方案，能在应用中解析html，markdown代码。使用方式如下，基本使用样例见aParse/index。
 
-#### 实现样例：
-
-<div style="display:flex">
-    <div display='flex:1'>
-        <img src='https://raw.githubusercontent.com/itfengan/aParse/master/image/%E6%88%AA%E5%9B%BE.png' style="width:250px">
-    </div>
-
-</div>
-
 #### 基本使用方法
 （1）复制文件夹：
 
